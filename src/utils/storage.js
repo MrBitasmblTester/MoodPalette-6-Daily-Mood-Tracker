@@ -1,0 +1,1 @@
+export const saveMoods = moods => localStorage.setItem('moods', JSON.stringify(moods));\nexport const loadMoods = () => JSON.parse(localStorage.getItem('moods')||'{}');
